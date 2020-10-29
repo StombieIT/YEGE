@@ -15,5 +15,3 @@ for i in range(len(ostd120) // 2):
 		n1, n2 = ostd120[i], ostd120[-(i + 1)]
 
 print(n1, n2)
-print(mxs)
-print(f'{mxs} % 120 = {mxs%120}')
