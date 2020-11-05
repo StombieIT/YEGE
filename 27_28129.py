@@ -9,6 +9,8 @@ with open('28129_B.txt', 'r') as file:
 		ost = num % b
 		if num % p == 0:
 			if num > ostsmxp[ost]:
+				if ostsmxp[ost] > ostsmx[ost]:
+					ostsmx[ost] = ostsmxp[ost]
 				ostsmxp[ost] = num
 		else:
 			if num > ostsmx[ost]:
